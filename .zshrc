@@ -1,5 +1,5 @@
 # use oh-my-posh
-eval "$(oh-my-posh init zsh --config ~/.local/bin/theme_oh_my_posh/princess.omp.json)"
+eval "$(oh-my-posh init zsh --config ~/Builds/Shell/my_theme.omp.json)"
 
 # powerlevel10k
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
