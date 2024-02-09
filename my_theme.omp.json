@@ -1,14 +1,22 @@
 {
    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+   "palette": {
+     "base": "#00141A",
+     "white": "#FDF6E3",
+     "red": "#DC322F",
+     "yellow": "#FFC102",
+     "blue": "#2AA198",
+     "bg_os": "#27EEE0"
+   },
    "blocks": [
       {
          "segments": [
             {
-               "background": "#196265",
+               "background": "p:white",
                "background_templates": [
-                  "{{ if gt .Code 0 }}#f1184c{{ end }}"
+                  "{{ if gt .Code 0 }}p:red{{ end }}"
                ],
-               "foreground": "#FFFFFF",
+               "foreground": "p:base",
                "leading_diamond": "\ue0b6",
                "properties": {
                   "always_enabled": true
@@ -19,8 +27,8 @@
                "trailing_diamond": "\ue0c0"
             },
             {
-               "background": "#FFC102",
-               "foreground": "#00141A",
+               "background": "p:yellow",
+               "foreground": "p:base",
                "properties": {
                   "style": "roundrock",
                   "threshold": 0
@@ -31,8 +39,8 @@
                "type": "executiontime"
             },
             {
-               "background": "#2AA198",
-               "foreground": "#FFFFFF",
+               "background": "p:blue",
+               "foreground": "p:base",
                "style": "diamond",
                "template": " {{ (div ((sub .PhysicalTotalMemory .PhysicalAvailableMemory)|float64) 1073741824.0) }}/{{ (div .PhysicalTotalMemory 1073741824.0) }}GB \ue266 ",
                "trailing_diamond": "\ue0c0",
@@ -48,8 +56,8 @@
             {
                "type": "os",
                "style": "diamond",
-               "foreground": "#0C212F",
-               "background": "#27EEE0",
+               "foreground": "p:base",
+               "background": "p:bg_os",
                "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}} \ue0b1 \udb85\ude5d {{.HostName}} ",
                "trailing_diamond": "\ue0b0",
                "properties": {
@@ -57,9 +65,9 @@
                }
             },
             {
-               "background": "#FFC102",
-               "foreground": "#0C212F",
-               "leading_diamond": "<transparent,#FFC102>\ue0b0</>",
+               "background": "p:yellow",
+               "foreground": "p:base",
+               "leading_diamond": "<transparent,p:yellow>\ue0b0</>",
                "properties": {
                   "folder_icon": "\udb80\uddd8",
                   "folder_separator_icon": "<transparent> \ue0b1 </>",
@@ -72,11 +80,11 @@
                "type": "path"
             },
             {
-               "background": "#2AA198",
+               "background": "p:white",
                "background_templates": [
-                  "{{ if or (.Working.Changed) (.Staging.Changed) }}#2AA198{{ end }}"
+                  "{{ if or (.Working.Changed) (.Staging.Changed) }}p:white{{ end }}"
                ],
-               "foreground": "#FFFFFF",
+               "foreground": "p:base",
                "powerline_symbol": "\ue0b0",
                "properties": {
                   "branch_ahead_icon": "\u2191",
@@ -97,20 +105,19 @@
                "type": "git"
             },
             {
-               "background": "#196265",
-               "foreground": "#FFFFFF",
+               "background": "p:blue",
+               "foreground": "p:base",
                "leading_diamond": "<transparent>\ue0b0 </>",
                "properties": {
                   "time_format": "3:04 PM"
                },
                "style": "diamond",
-               "template": "\ue381 {{ .CurrentDate | date .Format }} ",
-               "trailing_diamond": "\ue0b0",
+               "template": " \ue381 {{ .CurrentDate | date .Format }} ",
+               "trailing_diamond": "\ue0b4",
                "type": "time"
             },
             {
-               "background": "#012B36",
-               "template": "<parentBackground></parentBackground>",
+               "template": "<parentBackground>\ue0b0</parentBackground>",
                "properties": {
                   "always_enabled": true
                },
