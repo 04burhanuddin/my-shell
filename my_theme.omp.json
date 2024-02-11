@@ -1,12 +1,12 @@
 {
    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
    "palette": {
-     "base": "#00141A",
-     "white": "#FDF6E3",
-     "red": "#DC322F",
-     "yellow": "#FFC102",
-     "blue": "#2AA198",
-     "bg_os": "#27EEE0"
+      "base": "#00141A",
+      "white": "#FDF6E3",
+      "red": "#DC322F",
+      "yellow": "#FFC102",
+      "blue": "#2AA198",
+      "bg_os": "#27EEE0"
    },
    "blocks": [
       {
@@ -112,7 +112,7 @@
                   "time_format": "3:04 PM"
                },
                "style": "diamond",
-               "template": " \ue381 {{ .CurrentDate | date .Format }} ",
+               "template": "\ue381 {{ .CurrentDate | date .Format }} ",
                "trailing_diamond": "\ue0b4",
                "type": "time"
             },
@@ -122,7 +122,7 @@
                   "always_enabled": true
                },
                "style": "diamond",
-               "type": "status"
+               "type": "text"
             }
          ],
          "type": "prompt"
