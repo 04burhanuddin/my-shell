@@ -1,6 +1,6 @@
 #### **My Shell Prompt!**
 
-![my terminal](/assets/theme-1.png)
+![my terminal](/assets/my_theme.png)
 *Using colors from [Solarized Osaka](https://github.com/craftzdog/solarized-osaka.nvim)*
 
 Ini tema **Terminal** saya yang berjaan pada OS **Arch Linux**. Ya **Terminal**, ini tempat tinggal saya, dimana semua aktifitas saya lakukan di sini dalam mengoperasikan **Arch Linux**, Maka dari itu saya perlu terminal yang membuat saya nyaman untuk menggunakannya dan di bawah ini beberapa **Tech Stack** yang saya gunakan untuk mendukung produktivitas saya. sebelumnya saya menggunakan tema **Powerlevel10k** lalu kemudian saya menambahkan tema baru lagi dengan costum tema menggunakan **Oh My Posh** dan ini tema terakhir yang saya gunakan dan mungkin kedepannya saya akan membuat costume tema yang baru dan update di repository ini.
