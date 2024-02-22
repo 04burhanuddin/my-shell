@@ -24,6 +24,5 @@ This is my **Terminal** theme that runs on **Arch Linux** OS. Yes **Terminal**, 
 - [Shell-Color-Script](https://gitlab.com/dwt1/shell-color-scripts), A collection of terminal color scripts
 - [Novim](https://neovim.io/), The best command line editor for me,
 - [NvChad](https://nvchad.com/), Blazing fast Neovim config providing solid defaults and a beautiful UI
-- [Terminal GPT (tgpt)](https://github.com/aandrew-me/tgpt), Is a cross-platform command-line interface (CLI) tool that allows you to use AI chatbot in your Terminal without requiring API keys
 
 © 2024 [04burhanuddin](https://github.com/04burhanuddin)
