@@ -1,5 +1,7 @@
 #### **My Shell Prompt!**
 
+> If you are using android studio and often work on theminal, I really don't recommend using this theme, I haven't found what problem makes it so messy while in other editors like VS Code there is no problem everything is normal. It would be better if you update the shell path on android studio to bash or something else.
+
 **Theme 1**
 
 ![my terminal](/assets/theme-1.png)
@@ -10,7 +12,7 @@
 ![my terminal](/assets/theme-2.png)
 *Using colors from [Solarized Osaka](https://github.com/craftzdog/solarized-osaka.nvim)*
 
-Ini tema **Terminal** saya yang berjaan pada OS **Arch Linux**. Ya **Terminal**, ini tempat tinggal saya, dimana semua aktifitas saya lakukan di sini dalam mengoperasikan **Arch Linux**, Maka dari itu saya perlu terminal yang membuat saya nyaman untuk menggunakannya dan di bawah ini beberapa **Tech Stack** yang saya gunakan untuk mendukung produktivitas saya. sebelumnya saya menggunakan tema **Powerlevel10k** lalu kemudian saya menambahkan tema baru lagi dengan costum tema menggunakan **Oh My Posh** dan ini tema terakhir yang saya gunakan dan mungkin kedepannya saya akan membuat costume tema yang baru dan update di repository ini.
+This is my **Terminal** theme that runs on **Arch Linux** OS. Yes **Terminal**, this is my residence, where all my activities are done here in operating **Arch Linux**, therefore I need a terminal that makes me comfortable to use it and below are some **Tech Stack** that I use to support my productivity. previously I used the **Powerlevel10k** theme and then I added another new theme with a costum theme using **Oh My Posh** and this is the last theme I used and maybe in the future I will make a new costume theme and update it in this repository.
 
 **Tech Stack**
 - ***Required** [Nerd Font](https://www.nerdfonts.com/#features), I use JetBrainsMono Nerd Font and MesloLG Nerd Font
