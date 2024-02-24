@@ -1,6 +1,6 @@
 #### **My Shell Prompt!**
 
-> If you are using android studio and often work on theminal, I really don't recommend using this theme, I haven't found what problem makes it so messy while in other editors like VS Code there is no problem everything is normal. It would be better if you update the shell path on android studio to bash or something else.
+> **Note**: The mistake I made was using UTF code with two parts like this `\udb85\ude5d` and when I was working in the **Android Studio** terminal then what was `final_space = true` as if the value was `false`, so there was quite a bit of word switching, and if I used too much UTF code it would get messy. Maybe it's my fault for not reading all the **Oh My Posh** documentation, and if you are using this theme or want to modify it please be aware of the UTF codes you will choose and don't worry I have fixed all these themes.
 
 **Theme 1**
 
