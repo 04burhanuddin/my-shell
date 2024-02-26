@@ -1,15 +1,10 @@
 #### **My Shell Prompt!**
 
-> **Note**: The mistake I made was using UTF code with two parts like this `\udb85\ude5d` and when I was working in the **Android Studio** terminal then what was `final_space = true` as if the value was `false`, so there was quite a bit of word switching, and if I used too much UTF code it would get messy. Maybe it's my fault for not reading all the **Oh My Posh** documentation, and if you are using this theme or want to modify it please be aware of the UTF codes you will choose and don't worry I have fixed all these themes.
+> **NOTE:** If you want to use this theme, modify it to your liking but my advice is to use `UTF codes` that consist of only one part like this `\ue641`, avoid using codes that have two parts like this `\udb85\udc43`. Based on my experience all the icons / characters from the ` UTF code` that I use look fine and there is nothing strange, but when working in the `Android Studio` terminal it will be messy and it will happen as if `final_space = false` even though in the json configuration the value is true and if you use too much it will be very messy and don't worry I have fixed all these themes.
 
-**Theme 1**
+**All Themes**
 
-![my terminal](/assets/theme-1.png)
-*Using colors from [Solarized Osaka](https://github.com/craftzdog/solarized-osaka.nvim)*
-
-**Theme 2**
-
-![my terminal](/assets/theme-2.png)
+![my terminal](/assets/screenshoot.png)
 *Using colors from [Solarized Osaka](https://github.com/craftzdog/solarized-osaka.nvim)*
 
 This is my **Terminal** theme that runs on **Arch Linux** OS. Yes **Terminal**, this is my residence, where all my activities are done here in operating **Arch Linux**, therefore I need a terminal that makes me comfortable to use it and below are some **Tech Stack** that I use to support my productivity. previously I used the **Powerlevel10k** theme and then I added another new theme with a costum theme using **Oh My Posh** and this is the last theme I used and maybe in the future I will make a new costume theme and update it in this repository.
