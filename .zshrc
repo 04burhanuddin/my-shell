@@ -1,10 +1,5 @@
 # use oh-my-posh
-eval "$(oh-my-posh init zsh --config ~/Builds/Shell/theme-2.omp.json)"
-
-# powerlevel10k
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+eval "$(oh-my-posh init zsh --config ~/Builds/Shell/theme-3.omp.json)"
 
 export ZSH="$HOME/.oh-my-zsh"
 # ZSH_THEME="powerlevel10k/powerlevel10k" # robbyrussell
@@ -17,21 +12,23 @@ ZSH_COMPDUMP="$ZSH_CACHE_DIR/.zcompdump"
 source $ZSH/oh-my-zsh.sh
 
 # alias
-alias ls='lsd' # i use lsdeluxe https://github.com/lsd-rs/lsd
+alias ls='lsd'
 alias l='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
+devinfo() { neofetch | lolcat }
+wifi() { sudo nmcli dev wifi list | lolcat }
 
 colorscript random # random colorscript, https://gitlab.com/dwt1/shell-color-scripts
 
-export PATH="$PATH:/home/dev/.tools/flutter/bin" # flutter path
+# costume path
+export PATH="$PATH:$HOME/.tools/flutter/bin" # flutter
 export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable" # google-chrome-stable
 export PATH="$PATH:$HOME/.local/bin" # global shell script
 export PATH="$PATH:$HOME/.local/bin/statusbar/" # my shell script statusbar
-export PATH="$HOME/.config/composer/vendor/bin:$PATH" # composer
+export PATH="$HOME/.config/composer/vendor/bin:$PATH" # laravel global installer
 export PATH="$HOME:/usr/local/go/bin:$PATH" # golang
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh # powerlevel10k configure
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
