@@ -7,14 +7,14 @@
       "segments": [
         {
           "background": "#163952",
-          "foreground": "#6C71C4",
+          "foreground": "#CBCFFF",
           "type": "os",
           "style": "plain",
           "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}}"
         },
         {
           "background": "#163952",
-          "foreground": "#6C71C4",
+          "foreground": "#CBCFFF",
           "style": "powerline",
           "template": " {{ .UserName }} ",
           "trailing_diamond": "\ue0b0",
@@ -34,10 +34,10 @@
           "powerline_symbol": "\ue0b0",
           "properties": {
             "folder_separator_icon": " \ue0b1 ",
-            "home_icon": "\ueb06",
+            "home_icon": "~",
             "style": "folder"
           },
-          "template": " {{ .Path }} ",
+          "template": " \uf115  {{ .Path }} ",
           "type": "path"
         },
         {
@@ -132,7 +132,7 @@
           "properties": {
             "always_enabled": true
           },
-          "template": "\ue23a {{ if gt .Code 0 }}\uf00d {{ reason .Code }}{{ else }}\uf42e{{ end }} ",
+          "template": "\ue23a {{ if gt .Code 0 }}\udb80\udd2c {{ reason .Code }}{{ else }}\uf42e{{ end }} ",
           "type": "status",
           "trailing_diamond": "\ue0c0"
         },
