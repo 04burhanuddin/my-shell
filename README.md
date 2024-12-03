@@ -14,6 +14,7 @@ This is my **Terminal** theme that runs on **Arch Linux** OS. Yes **Terminal**, 
 - [nvchad](https://nvchad.com/) - Blazing fast Neovim config providing solid defaults and a beautiful UI
 - [ranger](https://github.com/ranger/ranger) - Ranger is a console file manager with VI key bindings
 - [tgpt](https://github.com/aandrew-me/tgpt) - Is a cross-platform command-line interface (CLI) tool that allows you to use AI chatbot in your Terminal without requiring API keys
+- [pass](https://www.passwordstore.org/) - The standard unix password manager
 - [lazygit](https://github.com/jesseduffield/lazygit) - A simple terminal UI for git commands
 - [zathura](https://pwmt.org/projects/zathura/) - zathura is a highly customizable and functional document viewer
 - [sxiv](https://wiki.archlinux.org/title/Sxiv) - Simple X Image Viewer is a lightweight and scriptable image viewer written in C
